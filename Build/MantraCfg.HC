@@ -44,7 +44,7 @@ U0 TOSInit()
   }
 } TOSInit;
 
-#define TOS_ISO_NAME	"B:/Shrine.ISO.C"
+#define TOS_ISO_NAME	"B:/Mantra.ISO.C"
 #define TOS_DISTRO_DIR	"B:/Distro"
 #define CFG_OPTS	"StaffMode\nMountIDEAuto\nCT\n"
 #define CFG_DBG_OPTS	"StaffMode\nMountIDEAuto\nCT"\
