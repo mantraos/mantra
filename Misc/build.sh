@@ -5,7 +5,11 @@ mkdir .build
 cd .build
 
 BIN=mantrakernel
-curl -O https://github.com/mantraos/mantra/blob/main/.mantra/mantrakernel
+curl -O https://github.com/mantraos/mantra/blob/main/.mantra/mantrakernel?raw=true
+
+cp mantrakernel?raw=true mantrakernel
+rm mantrakernel?raw=true
+
 chmod +x $BIN
 
 mkdir out
