@@ -19,4 +19,3 @@ public CBGR48 gr_palette_gruv[COLORS_NUM]={
 
 GrPaletteSet(gr_palette_gruv);
 MemCpy(gr_palette_std, gr_palette_gruv, sizeof(gr_palette_gruv));
-
